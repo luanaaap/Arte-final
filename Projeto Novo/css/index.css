@@ -1,0 +1,274 @@
+
+/*banner*/
+
+img {
+    max-width: 100%;
+}
+.carousel-item {
+    height: 500px !important;
+}
+
+.carousel-caption {
+    position: absolute;  
+    padding-bottom: 200px !important;
+  }
+
+  
+/* slide cursos */
+
+
+.secao-cursos{   
+    text-align: center;
+  }
+
+.titulo{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.titulo-curso{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 30px;
+}
+
+.linha1{
+    width: 10%;
+    border-top: 3px solid rgba(56, 52, 52, 0.9);
+    border-radius: 100px;
+}
+
+.slider {
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.item-cursos{
+    text-decoration: none;
+    color: blue !important;
+}
+  
+.item-cursos:hover{
+    color: black !important;;
+    text-decoration: none;
+}
+
+.slick-slide {
+    margin: 0px 20px;
+}
+    
+.slick-slide img {
+    width: 100%;
+    border-radius: 100%;
+}
+    
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+    
+.texto{
+    text-align: center;
+}
+    
+.slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+}
+    
+.slick-active {
+    opacity: 1;
+}
+    
+.slick-current {
+    opacity: 1;
+}
+    
+.slick-next {
+    right: -15px !important;
+}
+
+
+/* eventos */
+
+
+.secao-eventos{ 
+    background-color:  #121212;       
+}
+
+.titulos-eventos {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 30px;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.linha2{
+    width: 10%;
+    border-top: 3px solid rgba(255, 255, 255, 0.9);
+    border-radius: 100px;
+}
+
+#posts {
+    text-align: center;
+    font-size: 0;        
+    width: 100%;    
+}
+      
+.postagens{
+    padding: 30px;
+    float: left;
+}
+      
+#posts .post {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    margin: 0;
+    max-width: 100%;   
+    display: inline-block;
+    background-size: cover;
+    background-position: center center;
+}
+      
+@media only screen and (max-width: 400px) {
+    #posts .post {
+        position: relative;
+        width: 100%;
+        height: 200px;
+    }
+}
+
+#posts .post h2 {
+    color:#fff;
+    position: absolute;
+    bottom: 30px;
+    margin: 0;
+    font-size: 30px;
+    line-height: 0.8;       
+    padding: 0 30px;
+    text-align: left;
+    z-index: 1000;
+}
+      
+#posts .post:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #000;
+    opacity: 0.5;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+    filter: alpha(opacity=50);
+    transition: all 300ms ease-out;
+    content: '';
+    z-index: 1;
+}
+
+#posts .post:hover:before {
+    opacity: 0.2;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=20);
+    filter: alpha(opacity=20);
+}
+    
+
+/* missão */
+
+
+.secao-missao{
+    padding: 10px;
+    background-image: url(../img/texture.jpg); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    color: white;
+}
+.media-body {
+   
+    padding-top: 50px;
+}
+.foto-mmissao{
+    text-align: center !important;
+}
+
+.botao-mmissao{
+    text-decoration: none !important;
+}
+
+.btn-light:hover{
+    opacity: 0.8;
+}
+  
+.btn-light {
+    width: 100%;
+}
+
+
+/* galeria */
+.secao-galeria {padding-bottom: 50px}
+
+
+.titulo-galeria{
+    padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.linha3{
+    width: 10%;
+    border-top: 3px solid rgba(56, 52, 52, 0.9);
+    border-radius: 100px;
+}
+
+.botao-galeria{
+    text-align: center;
+}
+  
+.card-deck{
+    padding-bottom: 30px !important;
+}
+  
+.galerias{
+    padding-top: 50px;
+}
+  
+.cards{
+    border: none !important;
+}
+
+.galeria1{
+    text-align: center;
+    padding-bottom: 50px;
+}
+  
+.galerias img{
+    vertical-align: baseline !important;
+    border-style: none;
+    background-size: cover;
+    background-position: center center;
+}
+  
+.example-image:hover{
+    opacity: 0.4 !important;
+}
+
+.botao-home{
+    color: white;
+    text-decoration: none;
+}
+  
+.botao-home:hover{
+    text-decoration: none;
+    color: white
+}
+  
+.card-img-top {
+    width: 100%;
+    height: 350px;
+    object-fit: cover !important;
+}

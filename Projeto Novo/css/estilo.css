@@ -1,0 +1,286 @@
+* {
+    margin: 0 ;
+    padding: 0 ;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    
+}
+
+img {    max-width: 100%;
+    max-height: 100%;
+}
+
+.logo{
+    text-align: center;
+}
+
+.sociais{
+    text-align: center;
+}
+
+.redes-sociais{
+    
+    padding: 10px;
+}
+
+.navbar{
+    background-color: #2354b0 !important;
+    
+}
+
+.nav-link{
+    padding-left: 50px!important;
+    color: white !important;
+    font-size: 22px;
+}
+
+.nav-link:hover{
+    color: #42B32F !important;
+}
+
+.galeria1{
+    
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.galerias img{
+        vertical-align: baseline !important;
+        border-style: none;
+    
+}
+
+
+.secao-banner1{
+    text-align: center;
+    color: #2354b0;
+    
+   
+}
+
+
+
+
+.card-img-overlay{
+    padding: 50px !important;
+
+}
+
+
+.cursos{
+    background-color: red !important;
+}
+
+.secao-divulgacao{
+    padding: 20px;
+    padding-top: 50px;
+    background-color: #2354b0;
+    /*background-color: #f2f2f2;*/
+}
+
+.secao2{
+    background-color: black;
+}
+
+
+
+
+
+.secao-banner2{
+    
+    padding: 30px;
+    background-image: url(../img/texture.jpg); /*caso a sua imagem de fundo se encontre no mesmo diretorio use apenas background-image:url(backg.jpg) */
+    background-size: cover; /*caso nao pertenda utilizar htm5 substitua 'cover' por 100%*/
+    background-repeat: no-repeat; /*previne que a imagem se repita ao longo da pagina*/
+    color: white;
+}
+
+
+
+
+.titulo-galeria{
+    text-align: center;
+}
+
+
+
+.gallery-title
+{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+
+.example-image:hover{
+    opacity: 0.4 !important;
+}
+
+.rodape1{
+   background-color: #E6E8FA;
+    padding: 10px;
+}
+
+.mapa{
+    background-color: black;
+}
+
+.botao{
+    text-align: center;
+}
+
+.rodape{
+    background-color: #666666;
+    
+}
+
+
+
+.texto-rodape{
+    color: white;
+    
+    
+}
+
+
+
+
+.rodape-edicao{
+    
+    background-color: #1a1a1a;
+}
+
+.logo-rodape{
+    float: left;
+    text-align: center;
+    
+}
+
+.texto-rodape{
+    padding-top: 10px;
+    
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.titulo-geral{
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+.secao-cursos{
+   
+    text-align: center;
+}
+
+
+
+.item-cursos{
+    text-decoration: none;
+    color: blue;
+}
+
+.item-cursos:hover{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+
+.slider {
+    width: 100%;
+    margin: 40px auto;
+    
+    text-align: center;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+
+.slick-slide img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.texto{
+    text-align: center;
+}
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: 1;
+}
+
+.slick-current {
+  opacity: 1;
+}

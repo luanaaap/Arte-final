@@ -1,0 +1,134 @@
+
+/* Linha do banner */
+
+
+h1 {
+	font: 33px sans-serif;
+	margin-top: 30px;
+	text-align: center;
+	text-transform: uppercase;
+}
+ 
+h1.no-background {
+	position: relative;
+	overflow: hidden;
+	color: white;
+}
+
+h1.no-background span {
+	display: inline-block;
+	vertical-align: baseline;
+	zoom: 1;
+	*display: inline;
+	*vertical-align: auto;
+	position: relative;
+	padding: 0 20px;
+}
+
+h1.no-background span:before,
+h1.no-background span:after {
+	content: '';
+	display: block;
+	width: 1000px;
+	position: absolute;
+	top: 0.73em;
+	border-top: 1px solid white;
+}
+
+  h1.no-background span:before {
+	right: 100%;
+}
+
+h1.no-background span:after {
+	left: 100%;
+}
+
+.titulos-banner{
+	height: 400px;
+	padding-top: 150px;
+}
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.inicial {
+	
+	width: 100%;
+	height: 400px;
+    background-color: #444;
+	background-image: url(../img/curso.jpg);
+	background-size: cover;
+}
+
+.inicial > h3, .descricao {
+	text-align: center;
+	color: #FFF;
+}
+
+.inicial > h3 {
+	font-weight: 600;
+}
+
+.inicial > .descricao {
+	width: 80%;
+	margin: 20px 10%;
+	margin-bottom: 0px;
+	font-size: 20px;
+}
+
+.banner-imagem{
+    width: 100% !important;   
+}
+
+
+/*secão cursos*/
+
+
+.cursos{
+    padding-top: 30px;
+}
+
+.imagens-curso{
+    float: left;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.cursos-icone{
+    text-decoration: none;
+    color: blue;
+}
+
+.cursos-icone:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.imagens-curso img {
+    width: 90%;
+    height: 100%;
+    padding-top: 20px;
+    border-radius: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .imagens-curso img {
+        width: 60%;
+        height: 60%;
+        padding-top: 20px;
+        border-radius: 60%;
+    }
+}
+
+.nome {
+    color: #454545;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+
+

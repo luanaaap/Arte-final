@@ -1,0 +1,500 @@
+
+/*banner*/
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+/* Caricatura banner */
+
+
+.inicial {
+	max-width: 100%;
+	height: 400px;
+	background-image: url(../img/caricatura01.jpg);
+    background-position: center 70%;
+}
+
+.inicial > h3, .descricao {
+	float: left;
+	width: 100%;
+	margin-top: 150px;
+	font-size: 40px;
+	text-align: center;
+	color: #FFF;
+}
+
+.inicial > h3 {
+	font-weight: 600;
+}
+
+.inicial > .descricao {
+	width: 80%;
+	margin: 0px 10%;
+	margin-bottom: 0px;
+	font-size: 20px;
+}
+
+
+/* Linha do banner */
+
+
+h1 {
+	font: 33px sans-serif;
+	margin-top: 30px;
+	text-align: center;
+	text-transform: uppercase;
+}
+ 
+h1.no-background {
+	position: relative;
+	overflow: hidden;
+	color: white;
+}
+
+h1.no-background span {
+	display: inline-block;
+	vertical-align: baseline;
+	zoom: 1;
+	*display: inline;
+	*vertical-align: auto;
+	position: relative;
+	padding: 0 20px;
+}
+
+h1.no-background span:before,
+h1.no-background span:after {
+	content: '';
+	display: block;
+	width: 1000px;
+	position: absolute;
+	top: 0.73em;
+	border-top: 1px solid white;
+}
+
+  h1.no-background span:before {
+	right: 100%;
+}
+
+h1.no-background span:after {
+	left: 100%;
+}
+
+.titulos-banner{
+	height: 400px;
+	padding-top: 150px;
+}
+  
+
+/* Desenho artistico banner */
+
+
+.inicial2 {
+	max-width: 100%;
+	height: 400px;
+	background-image: url(../img/desenhoartistico.jpg);
+    background-position: center 70%;
+}
+
+.inicial2 > h3, .descricao {
+	float: left;
+	width: 100%;
+	margin-top: 150px;
+	font-size: 40px;
+	text-align: center;
+	color: #FFF;
+}
+
+.inicial2 > h3 {
+	font-weight: 600;
+}
+
+.inicial2 > .descricao {
+	width: 80%;
+	margin: 0px 10%;
+	margin-bottom: 0px;
+	font-size: 20px;
+}
+
+/* mangá banner */
+
+
+.inicial3 {
+	max-width: 100%;
+	height: 400px;
+	background-image: url(../img/manga1.jpg);
+    background-position: center 70%;
+}
+
+.inicial3 > h3, .descricao {
+	float: left;
+	width: 100%;
+	margin-top: 150px;
+	font-size: 40px;
+	text-align: center;
+	color: #FFF;
+}
+
+.inicial3 > h3 {
+	font-weight: 600;
+}
+
+.inicial3 > .descricao {
+	width: 80%;
+	margin: 0px 10%;
+	margin-bottom: 0px;
+	font-size: 20px;
+}
+
+
+/* quadrinho banner */
+
+
+.inicial4 {
+	max-width: 100%;
+	height: 400px;
+	background-image: url(../img/quadrinho1.jpg);
+    background-position: center 70%;
+}
+
+.inicial4 > h3, .descricao {
+	float: left;
+	width: 100%;
+	margin-top: 150px;
+	font-size: 40px;
+	text-align: center;
+	color: #FFF;
+}
+
+.inicial4 > h3 {
+	font-weight: 600;
+}
+
+.inicial4 > .descricao {
+	width: 80%;
+	margin: 0px 10%;
+	margin-bottom: 0px;
+	font-size: 20px;
+}
+
+
+/* Art Kid banner */
+
+
+.inicial5 {
+	max-width: 100%;
+	height: 400px;
+	background-image: url(../img/artkid1.jpg);
+    background-position: center 70%;
+}
+
+.inicial5 > h3, .descricao {
+	float: left;
+	width: 100%;
+	margin-top: 150px;
+	font-size: 40px;
+	text-align: center;
+	color: #FFF;
+}
+
+.inicial5 > h3 {
+	font-weight: 600;
+}
+
+.inicial5 > .descricao {
+	width: 80%;
+	margin: 0px 10%;
+	margin-bottom: 0px;
+	font-size: 20px;
+}
+
+
+/* Desenho publicitario banner */
+
+
+.inicial6 {
+	max-width: 100%;
+	height: 400px;
+	background-image: url(../img/desenhopublicitario1.jpg);
+    background-position: center 70%;
+}
+
+.inicial6 > h3, .descricao {
+	float: left;
+	width: 100%;
+	margin-top: 150px;
+	font-size: 40px;
+	text-align: center;
+	color: #FFF;
+}
+
+.inicial6 > h3 {
+	font-weight: 600;
+}
+
+.inicial6 > .descricao {
+	width: 80%;
+	margin: 0px 10%;
+	margin-bottom: 0px;
+	font-size: 20px;
+}
+
+
+/* Aerografia banner */
+
+
+.inicial7 {
+	max-width: 100%;
+	height: 400px;
+	background-image: url(../img/aerografia1.jpg);
+    background-position: center 70%;
+}
+
+.inicial7 > h3, .descricao {
+	float: left;
+	width: 100%;
+	margin-top: 150px;
+	font-size: 40px;
+	text-align: center;
+	color: #FFF;
+}
+
+.inicial7 > h3 {
+	font-weight: 600;
+}
+
+.inicial7 > .descricao {
+	width: 80%;
+	margin: 0px 10%;
+	margin-bottom: 0px;
+	font-size: 20px;
+}
+
+
+/* THE banner */
+
+
+.inicial8 {
+	max-width: 100%;
+	height: 400px;
+	background-image: url(../img/THE1.jpg);
+    background-position: center 70%;
+}
+
+.inicial8 > h3, .descricao {
+	float: left;
+	width: 100%;
+	margin-top: 150px;
+	font-size: 40px;
+	text-align: center;
+	color: #FFF;
+}
+
+.inicial8 > h3 {
+	font-weight: 600;
+}
+
+.inicial8 > .descricao {
+	width: 80%;
+	margin: 0px 10%;
+	margin-bottom: 0px;
+	font-size: 20px;
+}
+
+
+/* Pintura em tela e tecido banner */
+
+
+.inicial9 {
+	max-width: 100%;
+	height: 400px;
+	background-image: url(../img/pinturatelatecido1.jpg);
+    background-position: center 70%;
+}
+
+.inicial9 > h3, .descricao {
+	float: left;
+	width: 100%;
+	margin-top: 150px;
+	font-size: 40px;
+	text-align: center;
+	color: #FFF;
+}
+
+.inicial9 > h3 {
+	font-weight: 600;
+}
+
+.inicial9 > .descricao {
+	width: 80%;
+	margin: 0px 10%;
+	margin-bottom: 0px;
+	font-size: 20px;
+}
+
+/* Desenho avançado banner */
+
+
+.inicial10 {
+	max-width: 100%;
+	height: 400px;
+	background-image: url(../img/desenhoavancado1.jpg);
+    background-position: center 70%;
+}
+
+.inicial10 > h3, .descricao {
+	float: left;
+	width: 100%;
+	margin-top: 150px;
+	font-size: 40px;
+	text-align: center;
+	color: #FFF;
+}
+
+.inicial10 > h3 {
+	font-weight: 600;
+}
+
+.inicial10 > .descricao {
+	width: 80%;
+	margin: 0px 10%;
+	margin-bottom: 0px;
+	font-size: 20px;
+}
+
+
+/* Desenho de moda banner */
+
+
+.inicial11 {
+	max-width: 100%;
+	height: 400px;
+	background-image: url(../img/desenhodemoda1.jpg);
+    background-position: center 70%;
+}
+
+.inicial11 > h3, .descricao {
+	float: left;
+	width: 100%;
+	margin-top: 150px;
+	font-size: 40px;
+	text-align: center;
+	color: #FFF;
+}
+
+.inicial11 > h3 {
+	font-weight: 600;
+}
+
+.inicial11 > .descricao {
+	width: 80%;
+	margin: 0px 10%;
+	margin-bottom: 0px;
+	font-size: 20px;
+}
+
+
+/*secão cursos*/
+
+
+a {
+	color: #202020;
+}
+
+.secao-cursos{
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+
+.ca-box {
+    padding: 10px;
+}
+
+.sobre-curso{
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.carousel-item {
+    height: 50% !important;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.w-100 {
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover !important;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #2154af;
+    border-color: #2154af;
+    margin-top: 20px;
+}
+
+.voltar {
+    
+    padding: 10px;
+}
+
+
+
+
+
+
+/*secão informações dos cursos*/
+
+
+.secao-informacoes-dos-cursos{
+    padding-bottom: 20px;
+}
+
+.acordeao{
+    padding-bottom: 10px;
+}
+
+.icones {
+    float: left;
+    position: absolute;
+}
+
+.secao-geral {
+    background-color: blue !important;
+}
+
+.titulo-cursos {
+    background-color: white;
+    color: black;
+    margin-left: 50px;
+    padding: 5px;
+}
+
+
+/*secão chamada*/
+
+
+.chamada {
+    background-color: #0071bd;
+    padding: 20px;
+    color: white;
+}
+
+.titulo-chamada {
+    text-align: center;
+}
+
+.botao-enviar{
+    text-align: center !important;
+}
+
